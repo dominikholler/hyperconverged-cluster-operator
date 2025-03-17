@@ -35,7 +35,7 @@ require (
 	golang.org/x/tools v0.24.0
 	gomodules.xyz/jsonpatch/v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
-	k8s.io/api v0.31.0
+	k8s.io/api v0.32.3
 	k8s.io/apiextensions-apiserver v0.31.0
 	k8s.io/apimachinery v0.31.0
 	k8s.io/apiserver v0.31.0
@@ -154,7 +154,7 @@ exclude k8s.io/sample-apiserver v0.0.0
 
 // Pinned to v0.31.0
 replace (
-	k8s.io/api => k8s.io/api v0.31.0
+	k8s.io/api => k8s.io/api v0.32.3
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.31.0
 	k8s.io/apimachinery => k8s.io/apimachinery v0.31.0
 	k8s.io/apiserver => k8s.io/apiserver v0.31.0
