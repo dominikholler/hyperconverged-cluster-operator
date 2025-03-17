@@ -18,7 +18,7 @@ require (
 	github.com/machadovilaca/operator-observability v0.0.24
 	github.com/onsi/ginkgo/v2 v2.20.2
 	github.com/onsi/gomega v1.34.2
-	github.com/openshift/api v3.9.1-0.20190517100836-d5b34b957e91+incompatible
+	github.com/openshift/api v0.0.1
 	github.com/openshift/cluster-kube-descheduler-operator v0.0.0-20240916113608-1a30f3be33fa
 	github.com/openshift/custom-resource-status v1.1.2
 	github.com/openshift/library-go v0.0.0-20240830130947-d9523164b328
@@ -30,18 +30,18 @@ require (
 	github.com/prometheus/common v0.57.0
 	github.com/samber/lo v1.47.0
 	github.com/spf13/pflag v1.0.5
-	golang.org/x/mod v0.20.0
+	golang.org/x/mod v0.21.0
 	golang.org/x/sync v0.10.0
-	golang.org/x/tools v0.24.0
+	golang.org/x/tools v0.26.0
 	gomodules.xyz/jsonpatch/v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
-	k8s.io/api v0.31.0
+	k8s.io/api v0.32.1
 	k8s.io/apiextensions-apiserver v0.31.0
-	k8s.io/apimachinery v0.31.0
+	k8s.io/apimachinery v0.32.1
 	k8s.io/apiserver v0.31.0
 	k8s.io/client-go v12.0.0+incompatible
 	k8s.io/kube-openapi v0.31.0
-	k8s.io/utils v0.0.0-20240821151609-f90d01438635
+	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 	kubevirt.io/api v1.5.0
 	kubevirt.io/application-aware-quota v1.4.0
 	kubevirt.io/containerized-data-importer-api v1.61.2
@@ -103,7 +103,7 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
-	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
+	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
@@ -193,7 +193,7 @@ replace vbom.ml/util => github.com/fvbommel/util v0.0.0-20180919145318-efcd4e0f9
 
 replace bitbucket.org/ww/goautoneg => github.com/munnerz/goautoneg v0.0.0-20120707110453-a547fc61f48d
 
-replace github.com/openshift/api => github.com/openshift/api v0.0.0-20230503133300-8bbcb7ca7183
+replace github.com/openshift/api => github.com/openshift/api v0.0.0-20250313134101-8a7efbfb5316
 
 // Fixes various security issues forcing newer versions of affected dependencies,
 // prune the list once not explicitly required
