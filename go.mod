@@ -174,7 +174,7 @@ replace (
 	k8s.io/kubectl => k8s.io/kubectl v0.31.0
 	k8s.io/kubelet => k8s.io/kubelet v0.31.0
 	k8s.io/legacy-cloud-providers => k8s.io/legacy-cloud-providers v0.31.0
-	k8s.io/metrics => k8s.io/metrics v0.31.0
+	k8s.io/metrics => k8s.io/metrics v0.32.3
 	k8s.io/node-api => k8s.io/node-api v0.31.0
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.31.0
 	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.31.0
