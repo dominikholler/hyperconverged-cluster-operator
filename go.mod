@@ -2,7 +2,7 @@ module github.com/kubevirt/hyperconverged-cluster-operator
 
 go 1.23.2
 
-toolchain go1.23.5
+toolchain go1.24.1
 
 require (
 	dario.cat/mergo v1.0.1
