@@ -16,8 +16,8 @@ require (
 	github.com/kubevirt/cluster-network-addons-operator v0.98.1
 	github.com/kubevirt/monitoring/pkg/metrics/parser v0.0.0-20240505100225-e29dee0bb12b
 	github.com/machadovilaca/operator-observability v0.0.24
-	github.com/onsi/ginkgo/v2 v2.20.2
-	github.com/onsi/gomega v1.34.2
+	github.com/onsi/ginkgo/v2 v2.23.0
+	github.com/onsi/gomega v1.36.2
 	github.com/openshift/api v3.9.1-0.20190517100836-d5b34b957e91+incompatible
 	github.com/openshift/cluster-kube-descheduler-operator v0.0.0-20240916113608-1a30f3be33fa
 	github.com/openshift/custom-resource-status v1.1.2
@@ -30,9 +30,9 @@ require (
 	github.com/prometheus/common v0.57.0
 	github.com/samber/lo v1.47.0
 	github.com/spf13/pflag v1.0.5
-	golang.org/x/mod v0.20.0
-	golang.org/x/sync v0.10.0
-	golang.org/x/tools v0.24.0
+	golang.org/x/mod v0.23.0
+	golang.org/x/sync v0.11.0
+	golang.org/x/tools v0.30.0
 	gomodules.xyz/jsonpatch/v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 	k8s.io/api v0.31.0
@@ -70,7 +70,7 @@ require (
 	github.com/google/gnostic-models v0.6.9 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
-	github.com/google/pprof v0.0.0-20240829160300-da1f7e9f2b25 // indirect
+	github.com/google/pprof v0.0.0-20241210010833-40e02aabc2ad // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grafana/regexp v0.0.0-20221122212121-6b5c0a4cb7fd // indirect
 	github.com/imdario/mergo v0.3.16 // indirect
@@ -92,13 +92,13 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948 // indirect
-	golang.org/x/net v0.34.0 // indirect
+	golang.org/x/net v0.35.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
 	golang.org/x/term v0.28.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.6.0 // indirect
-	google.golang.org/protobuf v1.35.1 // indirect
+	google.golang.org/protobuf v1.36.1 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
