@@ -182,7 +182,7 @@ replace (
 )
 
 replace (
-	github.com/appscode/jsonpatch => github.com/appscode/jsonpatch v1.0.1
+	github.com/appscode/jsonpatch/v3 => github.com/appscode/jsonpatch v3.0.1
 	github.com/go-kit/kit => github.com/go-kit/kit v0.12.0
 	github.com/openshift/machine-api-operator => github.com/openshift/machine-api-operator v0.2.1-0.20230329185430-d3973b45c2b6
 )
