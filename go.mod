@@ -104,7 +104,8 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
+	sigs.k8s.io/randfill v1.0.0 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.6.0 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
@@ -168,7 +169,7 @@ replace (
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.31.0
 	k8s.io/kube-aggregator => k8s.io/kube-aggregator v0.31.0
 	k8s.io/kube-controller-manager => k8s.io/kube-controller-manager v0.31.0
-	k8s.io/kube-openapi => k8s.io/kube-openapi v0.0.0-20240827152857-f7e401e7b4c2
+	k8s.io/kube-openapi => k8s.io/kube-openapi v0.0.0-20250304201544-e5f78fe3ede9
 	k8s.io/kube-proxy => k8s.io/kube-proxy v0.31.0
 	k8s.io/kube-scheduler => k8s.io/kube-scheduler v0.31.0
 	k8s.io/kubectl => k8s.io/kubectl v0.31.0
