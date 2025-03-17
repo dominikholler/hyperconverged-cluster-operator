@@ -28,7 +28,7 @@ require (
 	github.com/prometheus/client_golang v1.20.2
 	github.com/prometheus/client_model v0.6.1
 	github.com/prometheus/common v0.57.0
-	github.com/samber/lo v1.47.0
+	github.com/samber/lo v1.49.1
 	github.com/spf13/pflag v1.0.5
 	golang.org/x/mod v0.20.0
 	golang.org/x/sync v0.10.0
