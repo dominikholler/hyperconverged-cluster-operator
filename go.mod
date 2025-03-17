@@ -177,7 +177,7 @@ replace (
 	k8s.io/metrics => k8s.io/metrics v0.31.0
 	k8s.io/node-api => k8s.io/node-api v0.31.0
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.31.0
-	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.31.0
+	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.32.3
 	k8s.io/sample-controller => k8s.io/sample-controller v0.31.0
 )
 
