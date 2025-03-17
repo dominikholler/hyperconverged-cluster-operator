@@ -191,7 +191,7 @@ replace sigs.k8s.io/structured-merge-diff/v4 => sigs.k8s.io/structured-merge-dif
 
 replace vbom.ml/util => github.com/fvbommel/util v0.0.0-20180919145318-efcd4e0f9787
 
-replace bitbucket.org/ww/goautoneg => github.com/munnerz/goautoneg v0.0.0-20120707110453-a547fc61f48d
+replace bitbucket.org/ww/goautoneg => github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
 
 replace github.com/openshift/api => github.com/openshift/api v0.0.0-20230503133300-8bbcb7ca7183
 
