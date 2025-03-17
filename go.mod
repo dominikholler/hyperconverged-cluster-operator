@@ -31,7 +31,7 @@ require (
 	github.com/samber/lo v1.47.0
 	github.com/spf13/pflag v1.0.5
 	golang.org/x/mod v0.20.0
-	golang.org/x/sync v0.10.0
+	golang.org/x/sync v0.12.0
 	golang.org/x/tools v0.24.0
 	gomodules.xyz/jsonpatch/v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
@@ -94,9 +94,9 @@ require (
 	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948 // indirect
 	golang.org/x/net v0.34.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/term v0.28.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/term v0.30.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/time v0.6.0 // indirect
 	google.golang.org/protobuf v1.35.1 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
@@ -206,4 +206,4 @@ replace (
 replace gopkg.in/yaml.v3 => gopkg.in/yaml.v3 v3.0.1
 
 // Fix CVE-2024-45338
-replace golang.org/x/net => golang.org/x/net v0.34.0
+replace golang.org/x/net => golang.org/x/net v0.37.0
