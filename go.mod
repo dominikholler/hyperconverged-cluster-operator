@@ -30,18 +30,18 @@ require (
 	github.com/prometheus/common v0.57.0
 	github.com/samber/lo v1.47.0
 	github.com/spf13/pflag v1.0.5
-	golang.org/x/mod v0.20.0
+	golang.org/x/mod v0.21.0
 	golang.org/x/sync v0.10.0
-	golang.org/x/tools v0.24.0
+	golang.org/x/tools v0.26.0
 	gomodules.xyz/jsonpatch/v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 	k8s.io/api v0.31.0
 	k8s.io/apiextensions-apiserver v0.31.0
-	k8s.io/apimachinery v0.31.0
+	k8s.io/apimachinery v0.32.3
 	k8s.io/apiserver v0.31.0
 	k8s.io/client-go v12.0.0+incompatible
 	k8s.io/kube-openapi v0.31.0
-	k8s.io/utils v0.0.0-20240821151609-f90d01438635
+	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 	kubevirt.io/api v1.5.0
 	kubevirt.io/application-aware-quota v1.4.0
 	kubevirt.io/containerized-data-importer-api v1.61.2
@@ -103,7 +103,7 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
-	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
+	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
@@ -162,7 +162,7 @@ replace (
 	k8s.io/client-go => k8s.io/client-go v0.31.0
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.31.0
 	k8s.io/cluster-bootstrap => k8s.io/cluster-bootstrap v0.31.0
-	k8s.io/code-generator => k8s.io/code-generator v0.31.0
+	k8s.io/code-generator => k8s.io/code-generator v0.32.3
 	k8s.io/component-base => k8s.io/component-base v0.31.0
 	k8s.io/cri-api => k8s.io/cri-api v0.31.0
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.31.0
