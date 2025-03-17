@@ -199,7 +199,7 @@ replace github.com/openshift/api => github.com/openshift/api v0.0.0-202305031333
 // prune the list once not explicitly required
 replace (
 	github.com/dgrijalva/jwt-go => github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
-	github.com/gorilla/websocket => github.com/gorilla/websocket v1.5.0
+	github.com/gorilla/websocket => github.com/gorilla/websocket v1.5.3
 )
 
 // FIX: Unhandled exception in gopkg.in/yaml.v3
